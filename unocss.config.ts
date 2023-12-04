@@ -1,10 +1,9 @@
 import presetWeapp from 'unocss-preset-weapp'
-import { defineConfig } from 'unocss'
+import { defineConfig, presetIcons } from 'unocss'
 import {
   extractorAttributify,
   transformerClass
 } from 'unocss-preset-weapp/transformer'
-import { presetIcons } from 'unocss'
 
 const { presetWeappAttributify, transformerAttributify } =
   extractorAttributify()
